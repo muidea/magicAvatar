@@ -57,7 +57,7 @@ func MakeTextAvatar(text, avatarFile string, fontSize float64, backColor, fontCo
 	xOffset := (width - reallyfontSize) / 2
 	yOffset := (hight+reallyfontSize)/2 - reallyfontSize/10
 
-	if !unicode.Is(unicode.Scripts["Han"], avatarVal[0]) {
+	if len(avatarVal) > 0 && !unicode.Is(unicode.Scripts["Han"], avatarVal[0]) {
 		xOffset = (width-reallyfontSize)/2 + reallyfontSize/6
 		yOffset = (hight+reallyfontSize)/2 - reallyfontSize/8
 	}
