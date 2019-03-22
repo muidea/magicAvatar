@@ -4,7 +4,7 @@ import (
 	"flag"
 	"log"
 
-	"muidea.com/magicAvatar/factory"
+	"github.com/muidea/magicAvatar/factory"
 )
 
 var (

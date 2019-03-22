@@ -10,7 +10,7 @@ import (
 	"strconv"
 
 	"github.com/go-martini/martini"
-	"muidea.com/magicAvatar/factory"
+	"github.com/muidea/magicAvatar/factory"
 )
 
 var (

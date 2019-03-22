@@ -12,7 +12,7 @@ import (
 
 	"github.com/golang/freetype"
 	"golang.org/x/image/font"
-	"muidea.com/magicAvatar/base"
+	"github.com/muidea/magicAvatar/base"
 )
 
 func MakeTextAvatar(text, avatarFile string, fontSize float64, backColor, fontColor uint32, width, hight int) bool {
